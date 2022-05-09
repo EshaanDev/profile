@@ -1,0 +1,75 @@
+/*Responsive Designing*/
+
+@media only screen and (max-width: 909px) {
+    
+  .section-1{
+      flex-direction: column;
+  }
+
+  .about{
+      width: 300px;
+  }
+
+  .sub-head{
+      font-size: 1.5rem;
+  }
+
+  p{
+      font-size: 1rem;
+  }
+
+  .about-image{
+      float: right;
+  }
+
+  .section-2{
+      flex-direction: column-reverse;
+      margin-left: 30px;
+  }
+
+  .about-2{
+      width: 300px;
+      justify-content: center;
+  }
+
+  .sub-head-2{
+      font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 463px) {
+
+
+
+ul{
+    top: 0;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    height: 100vh;
+    width: 50%;
+    z-index: 999;
+   transform: translateX(100%);
+   transition: transform .5s;
+    
+}
+a{
+    color: black;
+}
+
+.img-btn{
+    margin-top: 10px;
+    padding-right: 20px;
+}
+  .menu{
+      height: 30px;
+      border-radius: 3px;
+      
+      background-color: rgb(254, 254, 255);
+    }
+
+}
