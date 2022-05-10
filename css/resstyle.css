@@ -41,35 +41,4 @@
 
 
 
-ul{
-    top: 0;
-    padding-top: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    position: absolute;
-    right: 0;
-    background-color: white;
-    height: 100vh;
-    width: 50%;
-    z-index: 999;
-   transform: translateX(100%);
-   transition: transform .5s;
-    
-}
-a{
-    color: black;
-}
-
-.img-btn{
-    margin-top: 10px;
-    padding-right: 20px;
-}
-  .menu{
-      height: 30px;
-      border-radius: 3px;
-      
-      background-color: rgb(254, 254, 255);
-    }
-
 }
