@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 *{
     margin: 0;
@@ -14,28 +15,35 @@ body{
 
 header{
     display: flex;
-    justify-content: space-between;
-    background-color: black;
+    flex-direction: column;
     margin-top: 20px;
-    height: 50px;
-    border-radius: 20px;
-    margin-right: 8px;
-    margin-left: 8px;
-   
-
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-5px);
 }
+
+.whoami{
+    color: rgb(182, 179, 179);
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+h1{
+    font-size: 4rem;
+   
+   
+}
+
+header:hover{
+    transition: transform .5s;
+}
+
 
 .open-nav{
     transform: translateX(0%);
 }
 
-nav{
-    display: flex;
-  
-   
-    padding-top: 10px;
-    
-}
+
 
 h3{
     padding-top: 10px;
@@ -49,14 +57,8 @@ span{
     color: rgb(20, 20, 233);
 }
 
-li {
-    display: inline-block;
-    text-decoration: none;
-    padding-right: 20px;
-    transition: transform .5s;
-}
 
-h3:hover,li:hover{
+h3:hover{
     transform: translateY(-5px);
 }
 

@@ -8,6 +8,8 @@
 
   .about{
       width: 300px;
+      height: 450px;
+      
   }
 
   .sub-head{
@@ -18,9 +20,7 @@
       font-size: 1rem;
   }
 
-  .about-image{
-      float: right;
-  }
+
 
   .section-2{
       flex-direction: column-reverse;
@@ -37,8 +37,3 @@
   }
 }
 
-@media only screen and (max-width: 463px) {
-
-
-
-}
